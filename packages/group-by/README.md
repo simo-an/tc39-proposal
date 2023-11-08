@@ -1,3 +1,9 @@
+## TC39 proposal
+
+https://github.com/tc39/proposal-array-grouping
+
+https://tc39.es/proposal-array-grouping
+
 ## Install
 
 Install `@tc39-proposal/group-by` by `pnpm`
