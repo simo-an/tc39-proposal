@@ -1,0 +1,45 @@
+{
+  "name": "@tc39-proposal/group-by",
+  "version": "0.0.1",
+  "description": "TC39 proposal: Implementation of Object.groupBy and Map.groupBy",
+  "main": "dist/tc39_proposal-group-by.js",
+  "module": "dist/tc39_proposal-group-by.esm.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "pnpm run build-bundle-dev -w",
+    "build": "tsx scripts/build.ts",
+    "build-dev": "tsx scripts/build.ts --dev",
+    "test": "tsx __test__/index.ts",
+    "format": "prettier --write --parser typescript src/**/*.ts index.ts",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "(src|__test__)/**/*.ts": [
+      "prettier --write"
+    ]
+  },
+  "author": "simu",
+  "keywords": [
+    "Object.groupBy",
+    "Map.groupBy",
+    "tc39",
+    "tc39 proposal",
+    "groupBy",
+    "groupByObject",
+    "groupByMap"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simo-an/tc39-proposal.git"
+  },
+  "homepage": "https://github.com/simo-an/tc39-proposal/tree/main/packages/group-by",
+  "bugs": {
+    "url": "https://github.com/simo-an/tc39-proposal/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
