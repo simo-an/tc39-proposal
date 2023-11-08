@@ -34,7 +34,7 @@ function createPackage(subModule: string, version: string) {
     "type": "git",
     "url": "git+https://github.com/simo-an/tc39-proposal.git"
   },
-  "homepage": "https://github.com/simo-an/tc39-proposal/main/packages/${subModule}",
+  "homepage": "https://github.com/simo-an/tc39-proposal/tree/main/packages/${subModule}",
   "bugs": {
     "url": "https://github.com/simo-an/tc39-proposal/issues"
   },
