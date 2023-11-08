@@ -1,5 +1,11 @@
 function createReadme(subModule: string) {
   const template = `
+## TC39 proposal
+
+https://github.com/tc39/proposal-xxxxxx
+
+https://tc39.es/proposal-xxxxxx
+
 ## Install
 
 Install \`@tc39-proposal/${subModule}\` by \`pnpm\`
